@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+}
+.left {
+  flex-basis: 75%;
+  padding: 3rem;
+}
+.left-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.right {
+  border-left: solid 5px #212529;
+  flex-basis: 25%;
+  padding: 4rem;
+
+  min-height: calc(100vh - 8rem);
+  display: flex;
+  flex-direction: column;
+  font-size: 2.6rem;
+  gap: 3rem;
+}
+.right p {
+  align-self: center;
+}
+.ad {
+  font-size: 1.8rem;
+}
+
+.offcanvas {
+  display: none;
+  align-self: flex-end;
+}
+
+.error-msg {
+  font-size: 2rem;
+  color: #ff3333;
+}
+
+@media only screen and (max-width: 42em) {
+  .right {
+    display: none;
+  }
+  .offcanvas {
+    display: block;
+  }
+  .left {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.images {
+  position: relative;
+}
+.image {
+  border: solid 2px #212529;
+  border-radius: 50%;
+}
+.button {
+  position: absolute;
+  right: 4.5rem;
+  top: 4rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+.input {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+  transition: color 0.5s;
+}
+
+.image-input {
+  display: none;
+}
+.input-button {
+  font-size: 3rem;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.input-button:hover {
+  color: #6c757d;
+}

@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 6rem;
+  margin: 8rem;
+  justify-items: center;
+}
+
+.title {
+  font-size: 4.6rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.ads-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.delete-btn {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 3rem;
+  color: #212529;
+  background-color: #383838;
+  border: 3px solid #212529;
+  transition: color border 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #550f0f;
+  color: #6c757d;
+  border: 3px solid #6c757d;
+  transition: all 0.4s;
+}
+
+@media only screen and (max-width: 89em) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .container {
+    grid-template-columns: auto;
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 23em) {
+  .container {
+    grid-template-columns: auto;
+    margin: 0rem;
+  }
+}

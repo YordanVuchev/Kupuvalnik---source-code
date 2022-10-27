@@ -1,0 +1,29 @@
+.image {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  border: solid 2px #212529;
+}
+.body {
+  background-color: #383838;
+  color: white;
+}
+.header {
+  color: white;
+  font-size: 1.8rem;
+  background-color: #212529;
+}
+
+.image-container {
+  transition: opacity 0.5s;
+  z-index: 4;
+  display: flex;
+  font-size: 1.4rem;
+  flex-direction: column;
+  align-items: center;
+
+  cursor: pointer;
+}
+.image-container:hover {
+  opacity: 0.5;
+}

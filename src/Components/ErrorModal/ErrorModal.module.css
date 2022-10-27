@@ -1,0 +1,35 @@
+.modal {
+  border: none;
+  color: #fff;
+}
+
+.title {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 2.4rem;
+}
+
+.message {
+  color: #ff4d4d;
+  font-size: 2rem;
+  background-color: #383838;
+  text-align: center;
+}
+
+.header {
+  font-size: 1.4rem;
+}
+
+.button {
+  font-size: 1.6rem;
+}
+
+.header,
+.footer {
+  background-color: #383838;
+  border: none;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}

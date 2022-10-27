@@ -1,0 +1,56 @@
+.main {
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+}
+
+.main::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.header {
+  background-color: #212529;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+}
+
+.body {
+  background-color: #383838;
+  color: aliceblue;
+}
+.group {
+  margin: 1rem;
+}
+.input {
+  font-size: 1.6rem;
+}
+.footer {
+  border: none;
+  background-color: #212529;
+  border-radius: 0;
+}
+
+.feedback {
+  color: salmon;
+  font-size: small;
+}
+.button {
+  background-color: #383838;
+  border-radius: 0.5rem;
+  border: solid 1px #18191a;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  color: white;
+  padding: 0.5rem 4rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #212529;
+  border-color: white;
+  transition: all 0.3s;
+}
+
+.feedback {
+  color: salmon;
+}

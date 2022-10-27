@@ -1,0 +1,11 @@
+.email-container {
+  display: flex;
+  flex-direction: column;
+}
+.email-container i {
+  align-self: flex-end;
+  font-size: 3rem;
+}
+.main > i {
+  font-size: 2rem;
+}

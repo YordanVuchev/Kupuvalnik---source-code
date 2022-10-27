@@ -1,0 +1,104 @@
+.container {
+  width: 50rem;
+  height: auto;
+  margin: 4rem auto 0 auto;
+  background-color: #212529;
+  border-radius: 2rem;
+  padding: 4rem 4rem 4rem 4rem;
+  font-size: 1.8rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 3.2rem;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.form input {
+  border-radius: 0.5rem;
+  padding-left: 5px;
+}
+
+.first-name,
+.last-name,
+.email,
+.username,
+.password {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1;
+}
+
+.email.invalid input,
+.username.invalid input,
+.password.invalid input,
+.last-name.invalid input,
+.first-name.invalid input {
+  border: 2px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.button {
+  border-radius: 0.5rem;
+  border-color: #252525;
+  font-size: 2.4rem;
+  letter-spacing: 1.5px;
+  margin-top: 3rem;
+  padding: 0.5rem 4rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #262626;
+  border-color: white;
+  transition: all 0.3s;
+}
+
+.input-has-error {
+  color: #ff3333;
+  margin: -2rem 0 0 6rem;
+}
+
+@media only screen and (max-width: 32em) {
+  .container {
+    width: 30rem;
+  }
+
+  .first-name,
+  .last-name,
+  .email,
+  .username,
+  .password {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 22em) {
+  .container {
+    width: 20rem;
+  }
+
+  .form input {
+    width: 150%;
+  }
+
+  .button {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,10 @@
+.name-container {
+  display: flex;
+}
+.name-container i {
+  font-size: 3rem;
+  display: flex;
+}
+.main > i {
+  font-size: 2rem;
+}

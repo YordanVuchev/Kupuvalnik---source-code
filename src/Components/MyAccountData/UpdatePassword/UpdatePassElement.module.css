@@ -1,0 +1,15 @@
+.password-container {
+  display: flex;
+  flex-direction: column;
+}
+.password-container i {
+  align-self: flex-end;
+  font-size: 3rem;
+}
+.main > i {
+  font-size: 2rem;
+}
+.invalid {
+  font-size: 1.5rem;
+  color: salmon;
+}

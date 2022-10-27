@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+  font-size: 1.8rem;
+}
+
+.main span {
+  display: flex;
+  gap: 2rem;
+}
+
+.main span i {
+  cursor: pointer;
+  transition: color 0.2s;
+  color: #212529;
+}
+
+.main span i:hover {
+  color: #6c757d;
+}
+.input-button {
+  font-size: 1.6rem;
+  width: 50px;
+}
+.image-container {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.main span input,
+.main span input:focus,
+.main span input:-webkit-autofill {
+  color: white;
+  width: auto;
+  border: 0;
+  border-bottom: solid 2px #212529;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0;
+}
+.main span input:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff;
+}
+
+.feedback {
+  color: salmon;
+  text-align: center;
+}

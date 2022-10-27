@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+.images {
+  position: relative;
+}
+.image {
+}
+.button {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-input {
+  display: none;
+}
+.input-button {
+  font-size: 2rem;
+}

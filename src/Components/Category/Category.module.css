@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+
+  width: 7rem;
+  border: #383838 solid 4px;
+  padding: 3rem;
+  border-radius: 50%;
+  background-color: #707070;
+}
+
+.category:hover {
+  cursor: pointer;
+  border-color: #707070;
+  background-color: #383838;
+  transition: all 0.3s;
+}
+
+.category--active {
+  border-color: #fff;
+}
+
+.category-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.category-name {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 45vh;
+}
+.spinner {
+  margin: 2rem;
+}

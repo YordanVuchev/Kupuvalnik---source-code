@@ -1,0 +1,10 @@
+.layout {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #383838;
+
+  top: 8rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
